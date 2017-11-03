@@ -5,9 +5,10 @@
 
 const mongoose = require('mongoose');
 const app = require('./app');
-const config = require('./config')
+const config = require('./config');
+const conectionurl = 'mongodb://adminmateo:mateoadmin@ds245755.mlab.com:45755/shopmongodb';
 
-mongoose.connect(config.db, (err, res) => {
+mongoose.connect(conectionurl, (err, res) => {
     if(err){
         return console.log(`ha ocurrido un error al conectarse a la base de datos ${err}`);
     }
