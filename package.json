@@ -1,20 +1,25 @@
 {
-  "name": "api-rest-mongodb",
+  "name": "api-rest",
   "version": "1.0.0",
-  "description": "api restfull en mongodb ",
+  "description": "Proyecto de API RESTful con Node.js y Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mateo Villa",
+  "author": "Carlos Azaustre (http://carlosazaustre.es)",
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "mongoose": "^4.12.3"
+    "body-parser": "^1.15.2",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.16.0",
+    "mongoose": "^4.6.0"
   },
   "devDependencies": {
+    "nodemon": "^1.10.2"
   }
 }
