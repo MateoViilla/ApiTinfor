@@ -7,19 +7,25 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Carlos Azaustre (http://carlosazaustre.es)",
+  "author": "Mateo Villa mateoviilla@gmail.com",
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.18.3",
     "crypto": "0.0.3",
-    "express": "^4.14.0",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
+    "js2excel": "^1.0.1",
     "jwt-simple": "^0.5.1",
-    "moment": "^2.16.0",
-    "mongoose": "^4.6.0"
+    "moment": "^2.22.2",
+    "mongoose": "^4.13.14",
+    "node-excel-to-json": "0.0.3",
+    "xls-to-json": "^0.4.0",
+    "xls-to-json-lc": "^0.3.4",
+    "xlsx-to-json": "^0.3.0",
+    "xlsx-to-json-lc": "^0.5.0"
   },
   "devDependencies": {
-    "nodemon": "^1.10.2"
+    "nodemon": "^1.18.3"
   }
 }
